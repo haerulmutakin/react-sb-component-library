@@ -1,0 +1,17 @@
+.fancy-button {
+    border-radius: 0;
+    padding: 0 10px;
+    height: 32px;
+    border: 1px solid #bdbdbd;
+}
+.fancy-button--rounded {
+    border-radius: 4px;
+}
+
+.fancy-button--small {
+    height: 25px;
+}
+
+.fancy-button--large {
+    height: 40px;
+}
