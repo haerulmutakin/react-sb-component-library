@@ -19,9 +19,7 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "outDir": "lib",
-    "declaration": true,
-    "sourceMap": true,
-    "declarationMap": true
+    "declaration": true
   },
   "include": [
     "src"
