@@ -17,7 +17,6 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
     "jsx": "react-jsx",
     "outDir": "lib",
     "declaration": true,
@@ -29,6 +28,7 @@
   ],
   "exclude": [
     "**/*.stories.tsx",
-    "**/*.test.tsx"
+    "**/*.test.tsx",
+    "./src/setupTest.ts"
   ]
 }
