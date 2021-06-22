@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { Panel, PanelProps } from './Panel';
+import Panel, { PanelProps } from './Panel';
 
 export default {
     title: 'Panel',

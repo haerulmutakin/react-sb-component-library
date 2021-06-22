@@ -6,7 +6,7 @@ export interface PanelProps {
     content: string
 };
 
-export const Panel: React.FC<PanelProps> = ({title = 'Title', content = 'Content'}) => {
+const Panel: React.FC<PanelProps> = ({title = 'Title', content = 'Content'}) => {
     return (
         <div className="panel-box">
             <div className="panel-header">
@@ -19,3 +19,5 @@ export const Panel: React.FC<PanelProps> = ({title = 'Title', content = 'Content
         </div>
     )
 } 
+
+export default Panel;

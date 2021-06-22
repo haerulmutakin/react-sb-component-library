@@ -12,7 +12,7 @@ export interface FancyButtonProps {
     onClick?: () => void
 }
 
-export const FancyButton: React.FC<FancyButtonProps> = ({
+ const FancyButton: React.FC<FancyButtonProps> = ({
     title = 'Button',
     variant = 'primary',
     size = 'medium',
@@ -28,3 +28,5 @@ export const FancyButton: React.FC<FancyButtonProps> = ({
             {title}
         </button>);
 }
+
+export default FancyButton;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
-import { FancyButton, FancyButtonProps } from './FancyButton';
+import FancyButton, { FancyButtonProps } from './FancyButton';
 
 export default {
     title: 'Button',
