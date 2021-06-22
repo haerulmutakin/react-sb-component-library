@@ -1,0 +1,17 @@
+.panel-box {
+    width: 100%;
+    border: 1px solid #eeeeee;
+}
+
+.panel-header {
+    height: 40px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.panel-content {
+    padding: 10px;
+}
