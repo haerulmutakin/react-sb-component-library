@@ -1,7 +1,8 @@
 {
-  "name": "fancy-button",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-fancy-ui",
+  "version": "1.0.0",
+  "private": false,
+  "main": "lib/index.js",
   "scripts": {
     "start": "react-scripts start",
     "build": "tsc",
